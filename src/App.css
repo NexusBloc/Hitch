@@ -12,9 +12,16 @@
 }
 
 body {
-  font-family: 'Anic', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Anic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 /* Example usage */
 .bold-text {
   font-weight: bold;

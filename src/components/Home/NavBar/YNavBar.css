@@ -134,6 +134,7 @@
     .navbar-container {
       display: block;
       height: 175px;
+      margin-top: 20px;
       /* justify-content: end; */
       /* align-items: center; */
     }

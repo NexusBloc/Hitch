@@ -146,8 +146,8 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .Ycont {
-    /* height: 80vh; */
-    /* overflow: hidden; */
+    height: 320vh;
+    overflow-x: hidden;
   }
   .disc{
     width: 160px;

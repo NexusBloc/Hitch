@@ -129,6 +129,21 @@
   width: 85%;
   word-spacing: 30px;
 }
+.Yhomebtna{
+  width: 100px;
+  position: relative;
+  height: 125px;
+  top: 3rem;
+  left: 10rem;
+    background-image: url(/src/components/Home/panic\ yellow.png);
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.Yhomebtna:hover {
+  background-image: url(
+"/src/components/Home/panic\ black.png");
+}
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .Ycont {
     /* height: 80vh; */
@@ -147,5 +162,20 @@
     width: 85%;
     word-spacing: 20px;
     color: black;
+  }
+  .Yhomebtna{
+    width: 57px;
+    position: relative;
+    height: 73px;
+    top: 8rem;
+    left: 2rem;
+      background-image: url(/src/components/Home/panic\ yellow.png);
+      background-size: cover;
+      transition: background-image 0.3s ease-in-out;
+  }
+  
+  .Yhomebtna:hover {
+    background-image: url(
+  "/src/components/Home/panic\ black.png");
   }
   }

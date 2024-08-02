@@ -352,3 +352,12 @@ font-weight: bold;
 .Bch6:hover {
   background-image: url("./Assets/Clicked-Chapter6.png");
 }
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .containerF {
+    /* background-image: url('./Assets/darkpanic_bg.png'); */
+      height: 0vh;
+      position: relative;
+      top: -538px;
+    }
+}

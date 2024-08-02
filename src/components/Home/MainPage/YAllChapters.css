@@ -430,6 +430,12 @@
     height: 30px;
     margin-left: 7%;
   }
+  .containerF  .btnF {
+    /* top: 150px; */
+  }
+  .containerF .btnFo {
+    /* top: -28px; */
+  }
   
  
 }

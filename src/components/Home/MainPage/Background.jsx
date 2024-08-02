@@ -4,7 +4,7 @@ import "./Background.css"
 
 
 function Background() {
-    const numberOfBoxes = 100; // Number of boxes to display
+    const numberOfBoxes = 8; // Number of boxes to display
 
     return (
      <div className='container'>

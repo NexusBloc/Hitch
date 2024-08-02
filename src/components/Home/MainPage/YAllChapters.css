@@ -49,14 +49,14 @@
   /* Ensures 'See More' link doesn't overlap items */
 }
 
-.item {
+.Yitem {
   flex: 1;
   margin: 0 10px;
   /* Adjust spacing between items */
   text-align: center;
 }
 
-.item img {
+.Yitem img {
   width: 50%;
   height: auto;
   max-width: 200px;
@@ -65,7 +65,7 @@
   margin: 0 auto;
 }
 
-.item h2 {
+.Yitem h2 {
   margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
@@ -310,6 +310,45 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+  .items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  /* Ensures 'See More' link doesn't overlap items */
+}
+
+.Yitem {
+  flex: 1;
+  margin: 0 10px;
+  /* Adjust spacing between items */
+  text-align: center;
+}
+
+.Yitem img {
+  width: 100%;
+  /* height: 50px; */
+  /* max-width: 200px; */
+  /* Adjust the size as needed */
+  display: block;
+  margin: 0 auto;
+}
+
+.Yitem h2 {
+  font-size: 15px;
+  color: black;
+}
+.Yitem h3 {
+  /* font-size: 15px; */
+  color: black;
+}
+.containerF {
+  /* background-image: url('./panic_bg.png'); */
+  /* background-color: pink; */
+  /* height: 10px; */
+  position: relative;
+  margin-top: 370px;
+  /* overflow: hidden; */
+}
   .container{
     /* position: relative; */
     /* bottom: -208px; */
@@ -318,6 +357,7 @@
     position: relative;
     /* padding-left: -25px; */
     /* left: -3.1%; */
+    color: black;
   }
   .row-container {
     position: relative;
@@ -331,20 +371,23 @@
   .ch1 {
     position: absolute;
     top: 56px;
-    left: 30%;
+    left: 27%;
+    margin-left: 7%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 50%;
-        max-height: 40px
+    width: 40%;
+    height: 30px;
+        /* max-height: 40px */
   }
   .ch2 {
     position: absolute;
     top: 56px;
     left: 30%;
+    margin-left: 7%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 50%;
-        max-height: 40px
+    width: 40%;
+    height: 30px;
   }
   .ch3 {
     position: absolute;
@@ -352,8 +395,9 @@
     left: 30%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 50%;
-        max-height: 40px
+    width: 40%;
+    height: 30px;
+    margin-left: 7%;
   }
   .ch4 {
     position: absolute;
@@ -361,8 +405,9 @@
     left: 30%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 50%;
-        max-height: 40px
+    width: 40%;
+    height: 30px;
+    margin-left: 7%;
   }
   .ch5 {
     position: absolute;
@@ -370,17 +415,19 @@
     left: 30%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 50%;
-        max-height: 40px
+    width: 40%;
+    height: 30px;
+    margin-left: 7%;
   }
   .ch6 {
     position: absolute;
     top: 56px;
-    left: 30%;
+    /* left: 30%; */
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 50%;
-        max-height: 40px
+    width: 40%;
+    height: 30px;
+    margin-left: 7%;
   }
   
  

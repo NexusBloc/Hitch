@@ -68,7 +68,15 @@ body {
   @media only screen and (max-width: 767px) and (min-width: 320px) {
     .YcontainerFirst {
         width: 100%;
-        overflow-x: hidden;
+        overflow-x: scroll;
+        color: black;
+        overflow-y: scroll;
+    }
+    .navbar-log {
+        margin-top: 0px;
+        /* padding-bottom: 110px; */
+        position: relative;
+        top: 50px;
     }
     .navbar-log img{
         margin-top: 0px;

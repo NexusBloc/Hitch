@@ -106,7 +106,7 @@
 /* .btn2 Link img:hover {
   background-color: #ce9c11;
 } */
-.intro {
+.Yintro {
   /* position: absolute; */
   font-weight: bold;
   width: 100%;
@@ -124,15 +124,16 @@
 .bgImg {
   position: absolute;
 }
-.intro p {
+.Yintro p {
   font-size: 25px;
   width: 85%;
   word-spacing: 30px;
 }
 @media only screen and (max-width: 767px) and (min-width: 320px) {
-  /* .Ycont {
-    height: 80vh;
-  } */
+  .Ycont {
+    /* height: 80vh; */
+    /* overflow: hidden; */
+  }
   .disc{
     width: 160px;
     height: 167px;
@@ -141,7 +142,7 @@
     left: 20%;
     margin-top: 0px;
   }
-  .intro p {
+  .Yintro p {
     font-size: 15px;
     width: 85%;
     word-spacing: 20px;

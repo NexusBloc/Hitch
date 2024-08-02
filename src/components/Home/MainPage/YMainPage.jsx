@@ -32,7 +32,7 @@ function MainPage() {
         </div>
       </div>
         {/* <Background/> */}
-        <div className="intro">
+        <div className="Yintro">
           <p>
             ?an!c(Panic) NFT collectiion is about stories of fantasy Lives after
             the apocalypse.

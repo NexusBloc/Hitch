@@ -25,8 +25,8 @@ function MainPage() {
           </div>
         </div>
       </div>
-        <div className="intro">
-          <p>
+        <div className="Gintro">
+          <p className='p' >
             ?an!c(Panic) NFT collectiion is about stories of fantasy Lives after
             the apocalypse.
             <br />

@@ -9,7 +9,7 @@
     overflow-x: hidden;
 } */
 .containerFirst1 {
-    background-color: black;
+    /* background-color: black; */
     
 }
 .BcontainerFirst .heroSection .logo {
@@ -17,13 +17,16 @@
     position: relative;
     top: -95px;
 }
+/* .navbar-logo {
+    cursor: default;
+} */
 .BcontainerFirst .BmainPage {
     position: relative;
     top: 350px;
     /* background-position: calc(top); */
     /* padding-bottom: 150px; */
     background-image: url('./Assets/darkpanic_bg.png');
-    color: #ce9c11;
+    color: yellow;
   }
 
 /* Medium devices (tablets, 768px and up) */

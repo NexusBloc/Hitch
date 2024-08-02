@@ -5,6 +5,7 @@
   /* padding-bottom: 75px; */
   /* height: 120vh; */
   /* background-repeat: no-repeat; */
+  background-size: contain;
   background-image: url('./panic_bg.png');
 }
 .btn2 img {
@@ -127,7 +128,7 @@
 .Yintro p {
   font-size: 25px;
   width: 85%;
-  word-spacing: 30px;
+  word-spacing: 15px;
 }
 .Yhomebtna{
   width: 100px;
@@ -160,7 +161,7 @@
   .Yintro p {
     font-size: 15px;
     width: 85%;
-    word-spacing: 20px;
+    word-spacing: 15px;
     color: black;
   }
   .Yhomebtna{

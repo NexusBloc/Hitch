@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 
 import "./YHome.css";
 import Logo from "./Logo.png"
@@ -7,13 +7,19 @@ import MainPage from "./MainPage/YMainPage";
 import Footer from "./Footer/YFooter";
 // export const ThemeContext = createContext();
 
+
 const Home = ({ children }) => {
   const [showWriteUp, setShowWriteUp] = useState(false);
-  // const [isDarkMode, setIsDarkMode] = useState(false);
+  useEffect(() => {
+    // Change body background color when the component is mounted
+    document.body.style.backgroundColor = '#FFD21E';
 
-  // const handleToggleClick = () => {
-  //   setIsDarkMode(!isDarkMode);
-  // };
+    // Revert body background color when the component is unmounted
+    return () => {
+      document.body.style.backgroundColor = '';
+    };
+  }, []);
+
 
   const handleLogoClick = (e) => {
     e.preventDefault();

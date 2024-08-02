@@ -1,6 +1,6 @@
-.cont {
+.Gcont {
   position: relative;
-  top: -280px;
+  top: -480px;
   /* height: 90vh; */
 }
 .show  {
@@ -49,7 +49,7 @@
 }
 .Gcont .homenavs .btn .panicportal {
     text-decoration: none;
-  color: #ce9c11;
+  color: yellow;
   font-weight: bold;
     border: 1px solid transparent;
     transition: border 0.3s;
@@ -105,12 +105,13 @@
       position: relative;
       left: 4%;
 }
-.Gcont .homenavs .intro {
+.Gcont .homenavs .Gintro {
   /* position: absolute; */
   font-weight: bold;
-  width: 100%;
+  width: 80%;
   height: 100vh;
-  
+  position: relative;
+  top: -150px;
   /* background-image: url("./panic_bg.png"); */
   background-size: cover;
   background-position: center;
@@ -122,17 +123,19 @@
 /* .bgImg {
   position: absolute;
 } */
-.Gcont .homenavs  .intro p {
+.p {
   font-size: 25px;
   width: 85%;
-  word-spacing: 30px;
+  margin-left: 90px;
+  font-weight: bold;
+  word-spacing: 15px;
 }
 
 
 .homebtn{
-  width: 57px;
+  width: 100px;
   position: relative;
-  height: 73px;
+  height: 125px;
   top: 3rem;
   left: 10rem;
     background-image: url(/src/components/Home/panic\ black.png);

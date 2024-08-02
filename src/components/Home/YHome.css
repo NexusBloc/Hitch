@@ -4,7 +4,7 @@
 
 /* Small devices (phones, 0px and up) */
 body {
-    background-color: #FFD21E;
+    /* background-color: #FFD21E; */
     /* color: black; */
     overflow-x: hidden;
 }
@@ -41,6 +41,8 @@ body {
     top: 350px;
     /* background-position: calc(top); */
     /* padding-bottom: 150px; */
+    background-size: contain;
+
     background-image: url('./panic_bg.png');
   }
   .show {

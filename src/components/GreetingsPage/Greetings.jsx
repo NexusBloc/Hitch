@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 
 import "./Greetings.css";
 import Logo from "./Assets/hero.gif"
@@ -6,6 +6,8 @@ import Navbar from "./NavBar";
 import MainPage from "./MainPage";
 import Footer from "./Footer";
 // export const ThemeContext = createContext();
+
+
 
 const Home = ({ children }) => {
   const [showWriteUp, setShowWriteUp] = useState(false);
@@ -23,6 +25,15 @@ const Home = ({ children }) => {
   const handleCloseClick = () => {
     setShowWriteUp(false);
   };
+  useEffect(() => {
+    // Change body background color when the component is mounted
+    document.body.style.backgroundColor = 'black';
+
+    // Revert body background color when the component is unmounted
+    return () => {
+      document.body.style.backgroundColor = '';
+    };
+  }, []);
 
 
   return (
@@ -32,9 +43,9 @@ const Home = ({ children }) => {
       <div className="BcontainerFirst">
       <Navbar />
       <div className="heroSection">
-      <a href="." className="navbar-logo" onClick={handleLogoClick}>
+      <div className="navbar-logo">
           <img className='logo' src={Logo}/>
-        </a>
+        </div>
 
         
       </div>

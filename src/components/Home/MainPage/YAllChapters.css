@@ -2,6 +2,7 @@
   background-image: url('./panic_bg.png');
   /* background-color: #0D9121; */
   /* height: 0px; */
+  background-size: contain;
   margin-top: -160px;
 }
 

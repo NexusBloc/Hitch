@@ -9,6 +9,7 @@
     overflow-x: hidden;
 } */
 .containerFirst1 {
+    overflow-x: hidden;
     /* background-color: black; */
     
 }
@@ -27,6 +28,7 @@
     /* padding-bottom: 150px; */
     background-image: url('./Assets/darkpanic_bg.png');
     color: yellow;
+    background-size: contain;
   }
 
 /* Medium devices (tablets, 768px and up) */

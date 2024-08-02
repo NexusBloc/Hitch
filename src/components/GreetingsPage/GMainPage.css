@@ -163,9 +163,23 @@
   background-image: url(
 "/src/components/Home/panic\ black.png");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .Gcont .homenavs {
+    /* display: flex; */
+  }
+  .Gintro {
+    /* width: 80%; */
+    left: -50px;
+    position: relative;
+  }
   .homebtna{
     top: 8rem;
     left: 3rem
+  }
+  .Gintro .p {
+    font-size: 15px;
+    width: 85%;
+    word-spacing: 12px;
+    
   }
 }

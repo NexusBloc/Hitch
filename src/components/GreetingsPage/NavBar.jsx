@@ -14,19 +14,19 @@ const Navbar = () => {
     <nav className="navbar">
         {/* <a href="#" className="navbar-logo">Logo</a> */}
       <div className="navbar-container">
-        <div className={`navbar-buttons ${menuOpen ? 'open' : ''}`}>
-          <a href="#" className="mkt ">
+          <a href="#" className="Gmkt">
           {/* <div className='marketplc'></div> */}
           {/* <img src={YelloMkp} /> */}
             
           </a>
-          <a href="#" className="col"></a>
-          <a href="#" className="mint"></a>
-          <a href="#" className="con"></a>
+          <a href="#" className="Gcol"></a>
+          <a href="#" className="Gmint"></a>
+          <a href="#" className="Gcon"></a>
+        {/* <div className={`navbar-buttons ${menuOpen ? 'open' : ''}`}>
         </div>
         <div className="navbar-menu-icon" onClick={toggleMenu}>
           ☰
-        </div>
+        </div> */}
       </div>
     </nav>
   );

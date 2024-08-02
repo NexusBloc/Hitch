@@ -10,16 +10,38 @@
     justify-content: center;
     align-items: center;
   }
-  @media only screen and (max-width: 600px) and (min-width: 400px){
-    .navbar-container open{
-      width: 100vw;
-      height: 100vh;
-      background-color: black;
-      position: fixed;
-      z-index: 100;
+  @media only screen and (max-width: 767px) and (min-width: 320px) {
+    .Gmkt {
+      /* display: none; */
+      width: 80%;
+      height: 60px;
+      position: relative;
+      /* top: 32px; */
+      overflow: hidden;
+    }
+  
+    .Gcol {
+      width: 80%;
+      height: 60px;
       /* position: relative; */
-      left: 1px;
-      top: -1px;
+      /* top: -67px; */
+      /* left: 226px; */
+    }
+  
+    .Gmint {
+      width: 80%;
+      height: 60px;
+      position: relative;
+      /* top: -134px; */
+      /* left: -37px; */
+    }
+  
+    .Gcon {
+      width: 80%;
+      height: 60px;
+      position: relative;
+      /* top: -207px; */
+      /* left: 137px; */
     }
   }
   
@@ -64,7 +86,7 @@
   .show {
     margin-bottom: 104px;
   }
-  .navbar .navbar-container .navbar-buttons .mkt {
+  .navbar .navbar-container .Gmkt {
     width: 260px;
     height: 175px;
     position: relative;
@@ -76,10 +98,10 @@
     transition: background-image 0.3s ease-in-out;
   }
   
-  .navbar .navbar-container .navbar-buttons .mkt:hover {
+  .navbar .navbar-container .Gmkt:hover {
     background-image: url("./Assets/Yellow-Marketplace.png");
   }
-  .navbar .navbar-container .navbar-buttons .col {
+  .navbar .navbar-container .Gcol {
     width: 260px;
     height: 175px;
     position: relative;
@@ -91,10 +113,10 @@
     transition: background-image 0.3s ease-in-out;
   }
   
-  .navbar .navbar-container .navbar-buttons .col:hover {
+  .navbar .navbar-container .Gcol:hover {
     background-image: url("./Assets/Yellow-Collection.png");
   }
-  .navbar .navbar-container .navbar-buttons .mint {
+  .navbar .navbar-container .Gmint {
     width: 260px;
     height: 175px;
     position: relative;
@@ -106,10 +128,10 @@
     transition: background-image 0.3s ease-in-out;
   }
   
-  .navbar .navbar-container .navbar-buttons .mint:hover {
+  .navbar .navbar-container .Gmint:hover {
     background-image: url("./Assets/Yellow-Mint-Now.png");
   }
-  .navbar .navbar-container .navbar-buttons .con {
+  .navbar .navbar-container .Gcon {
     width: 260px;
     height: 175px;
     position: relative;
@@ -122,7 +144,7 @@
     transition: background-image 0.3s ease-in-out;
   }
   
-  .navbar .navbar-container .navbar-buttons .con:hover {
+  .navbar .navbar-container .Gcon:hover {
     background-image: url("./Assets/Yellow-Connect.png");
   }
   @media (max-width: 768px) {

@@ -3,6 +3,7 @@ body {
 }
 .Ycontainer {
     background-image: url('./Assets/darkpanic_bg.png');
+    background-size: contain;
   }
 .containerF {
   /* background-image: url('./Assets/darkpanic_bg.png'); */

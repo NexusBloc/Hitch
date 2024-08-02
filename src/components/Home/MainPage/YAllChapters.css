@@ -5,14 +5,6 @@
   margin-top: -160px;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px){
-.container{
-  position: relative;
-  bottom: -208px;
-  margin-top: 0px;
-}
-}
-
 .containerF {
   /* background-image: url('./panic_bg.png'); */
   /* background-color: pink; */
@@ -234,21 +226,7 @@
   background-image: url("../../Assets/Btns/Clicked-Chapter1.png");
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
-  .ch1 {
-    position: absolute;
-    top: 56px;
-    left: 30%;
-    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
-    background-size: cover;
-    width: 184px;
-        max-height: 40px
-  }
-  
-  .ch1:hover {
-    /* background-image: url("../../Assets/Btns/Clicked-Chapter1.png"); */
-  }
-}
+
 
 .ch2 {
   width: 310px;
@@ -266,21 +244,6 @@
   background-image: url("../../Assets/Btns/Clicked-Chapter2.png");
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
-  .ch2 {
-    position: absolute;
-    top: 56px;
-    left: 30%;
-    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
-    background-size: cover;
-    width: 184px;
-        max-height: 40px
-  }
-  
-  .ch2:hover {
-    /* background-image: url("../../Assets/Btns/Clicked-Chapter1.png"); */
-  }
-}
 .ch3 {
   width: 310px;
   height: 295px;
@@ -295,21 +258,6 @@
 
 .ch3:hover {
   background-image: url("../../Assets/Btns/Clicked-Chapter3.png");
-}
-@media only screen and (max-width: 600px) and (min-width: 400px) {
-  .ch3 {
-    position: absolute;
-    top: 56px;
-    left: 30%;
-    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
-    background-size: cover;
-    width: 184px;
-        max-height: 40px
-  }
-  
-  .ch3:hover {
-    /* background-image: url("../../Assets/Btns/Clicked-Chapter1.png"); */
-  }
 }
 .ch4 {
   width: 310px;
@@ -327,21 +275,6 @@
   background-image: url("../../Assets/Btns/Clicked-Chapter4.png");
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
-  .ch4 {
-    position: absolute;
-    top: 56px;
-    left: 30%;
-    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
-    background-size: cover;
-    width: 184px;
-        max-height: 40px
-  }
-  
-  .ch4:hover {
-    /* background-image: url("../../Assets/Btns/Clicked-Chapter1.png"); */
-  }
-}
 
 
 .ch5 {
@@ -360,21 +293,6 @@
   background-image: url("../../Assets/Btns/Clicked-Chapter5.png");
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
-  .ch5 {
-    position: absolute;
-    top: 56px;
-    left: 30%;
-    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
-    background-size: cover;
-    width: 184px;
-        max-height: 40px
-  }
-  
-  .ch5:hover {
-    /* background-image: url("../../Assets/Btns/Clicked-Chapter1.png"); */
-  }
-}
 .ch6 {
   width: 310px;
   height: 295px;
@@ -391,19 +309,80 @@
   background-image: url("../../Assets/Btns/Clicked-Chapter6.png");
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .container{
+    /* position: relative; */
+    /* bottom: -208px; */
+    /* margin-top: 0px; */
+    height: 230vh;
+    position: relative;
+    /* padding-left: -25px; */
+    /* left: -3.1%; */
+  }
+  .row-container {
+    position: relative;
+    /* width: 85%; */
+    left: -30px;
+    /* padding-left: -20px; */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .ch1 {
+    position: absolute;
+    top: 56px;
+    left: 30%;
+    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
+    background-size: cover;
+    width: 50%;
+        max-height: 40px
+  }
+  .ch2 {
+    position: absolute;
+    top: 56px;
+    left: 30%;
+    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
+    background-size: cover;
+    width: 50%;
+        max-height: 40px
+  }
+  .ch3 {
+    position: absolute;
+    top: 56px;
+    left: 30%;
+    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
+    background-size: cover;
+    width: 50%;
+        max-height: 40px
+  }
+  .ch4 {
+    position: absolute;
+    top: 56px;
+    left: 30%;
+    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
+    background-size: cover;
+    width: 50%;
+        max-height: 40px
+  }
+  .ch5 {
+    position: absolute;
+    top: 56px;
+    left: 30%;
+    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
+    background-size: cover;
+    width: 50%;
+        max-height: 40px
+  }
   .ch6 {
     position: absolute;
     top: 56px;
     left: 30%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 184px;
+    width: 50%;
         max-height: 40px
   }
   
-  .ch6:hover {
-    /* background-image: url("../../Assets/Btns/Clicked-Chapter1.png"); */
-  }
+ 
 }
 

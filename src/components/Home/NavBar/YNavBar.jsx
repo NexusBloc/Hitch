@@ -14,7 +14,6 @@ const Navbar = () => {
     <nav className="ynavbar">
         {/* <a href="#" className="navbar-logo">Logo</a> */}
       <div className="navbar-container">
-        <div className={`navbar-buttons ${menuOpen ? 'open' : ''}`}>
           <a href="#" className="mkt ">
           {/* <div className='marketplc'></div> */}
           {/* <img src={YelloMkp} /> */}
@@ -24,10 +23,11 @@ const Navbar = () => {
           <a href="#" className="mint"></a>
           <a href="#" className="con"></a>
         </div>
+        {/* <div className={`navbar-buttons ${menuOpen ? 'open' : ''}`}>
         <div className="navbar-menu-icon" onClick={toggleMenu}>
           ☰
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 };

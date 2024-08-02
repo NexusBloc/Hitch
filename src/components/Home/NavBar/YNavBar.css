@@ -30,18 +30,12 @@
   background-size: cover;
   transition: background-image 0.3s ease-in-out;
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .mkt{
-    width: 205px;
-    height: 175px;
-    position: relative;
-    top: 32px;
-  }
-}
+
 
 .mkt:hover {
   background-image: url("./Black-Marketplace.png");
 }
+
 .col {
   width: 260px;
   height: 175px;
@@ -53,18 +47,11 @@
   background-size: cover;
   transition: background-image 0.3s ease-in-out;
 }
+
 .col:hover {
   background-image: url("./Black-Collection.png");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
- .col{
-  width: 196px;
-  height: 120px;
-  /* position: relative; */
-  top: -67px;
-  left: 226px;
- } 
-}
+
 
 
 .mint {
@@ -82,15 +69,7 @@
 .mint:hover {
   background-image: url("./Black-Mint-Now.png");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .mint{
-    width: 252px;
-    height: 175px;
-    position: relative;
-    top: -134px;
-    left: -37px;
-  }
-}
+
 .con {
   width: 260px;
   height: 175px;
@@ -107,15 +86,7 @@
 .con:hover {
   background-image: url("./Black-Connect.png");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .con{
-    width: 260px;
-        height: 175px;
-        position: relative;
-        top: -207px;
-        left: 137px;
-  }
-}
+
 
 .navbar-button {
   text-decoration: none;
@@ -158,6 +129,49 @@
     width: 30px;
     height: 40px;
   } */
+
+  @media only screen and (max-width: 767px) and (min-width: 320px) {
+    .navbar-container {
+      display: block;
+      height: 175px;
+      /* justify-content: end; */
+      /* align-items: center; */
+    }
+    
+    .mkt {
+      /* display: none; */
+      width: 80%;
+      height: 60px;
+      position: relative;
+      /* top: 32px; */
+      overflow: hidden;
+    }
+  
+    .col {
+      width: 80%;
+      height: 60px;
+      /* position: relative; */
+      /* top: -67px; */
+      /* left: 226px; */
+    }
+  
+    .mint {
+      width: 80%;
+      height: 60px;
+      position: relative;
+      /* top: -134px; */
+      /* left: -37px; */
+    }
+  
+    .con {
+      width: 80%;
+      height: 60px;
+      position: relative;
+      /* top: -207px; */
+      /* left: 137px; */
+    }
+  }
+  
 @media (max-width: 768px) {
   .navbar-buttons {
     display: none;

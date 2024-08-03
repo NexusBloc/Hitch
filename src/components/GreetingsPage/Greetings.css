@@ -1,34 +1,28 @@
-/* Base styles (mobile first) */
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-/* Small devices (phones, 0px and up) */
-/* body {
-    background-color: black;
-    color: #ce9c11;
-    overflow-x: hidden;
-} */
+
 .containerFirst1 {
     overflow-x: hidden;
-    /* background-color: black; */
-    
 }
 .BcontainerFirst .heroSection .logo {
     width: 100%;
     position: relative;
     top: -95px;
 }
-/* .navbar-logo {
-    cursor: default;
-} */
 .BcontainerFirst .BmainPage {
     position: relative;
-    top: 350px;
-    /* background-position: calc(top); */
-    /* padding-bottom: 150px; */
+    top: 150px;
     background-image: url('./Assets/darkpanic_bg.png');
     color: yellow;
     background-size: contain;
+  }
+  @media only screen and (max-width: 767px) and (min-width: 320px) {
+    .BcontainerFirst .heroSection .logo {
+        width: 100%;
+        position: relative;
+        top: -115px;
+    }
   }
 
 /* Medium devices (tablets, 768px and up) */

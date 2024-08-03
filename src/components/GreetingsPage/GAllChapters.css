@@ -29,14 +29,7 @@ body {
   right: 20px;
   }
 
-  @media only screen and (max-width: 600px) and (min-width: 400px) {
-    .see-more {
-      position: absolute;
-      top: 162px;
-      right: 0px;
-      left: 57%;
-    }
-  }
+  
   
   .see-more a {
     text-decoration: none;
@@ -72,16 +65,16 @@ body {
     font-size: 18px;
     font-weight: bold;
   }
-  .btnF {
+  .GbtnF {
     display: flex;
     justify-content: space-around;
     position: relative;
     left: -4.5%;
     width: 83%;
-    top: 70px;
+    top: 170px;
     padding-bottom: 40px;
   }
-  .btnFo {
+  .GbtnFo {
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -133,15 +126,6 @@ font-weight: bold;
 .Don:hover {
   background-image: url("./Assets/Yellow-Contact.png");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .Don{
-    width: 391px;
-    height: 128px;
-    position: relative;
-    top: 102px;
-    left: 16px;
-  }
-  }
 .QA {
   width: 250px;
   height: 295px;
@@ -155,15 +139,7 @@ font-weight: bold;
 .QA:hover {
   background-image: url("./Assets/Yellow-Q&A.png ");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .QA{
-    width: 500px;
-    height: 161px;
-    position: relative;
-    top: 79px;
-    left: 19px;
-  }
-  }
+
 .Abu {
   width: 250px;
   height: 295px;
@@ -173,15 +149,7 @@ font-weight: bold;
   background-size: cover;
   transition: background-image 0.3s ease-in-out;
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .Abu{
-    width: 437px;
-    height: 136px;
-    position: relative;
-    top: 99px;
-    left: 9px;
-  }
-  }
+
 
 .Abu:hover {
   background-image: url("./Assets/Yellow-About-us.png");
@@ -203,18 +171,10 @@ font-weight: bold;
 }
 
 .pensea:hover {
-  /* background-image: url("./Assets/Yellow-Opensea.png"); */
+  background-image: url("./Assets/Yellow-Opensea.png");
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px){
-.pensea{
-  width: 392px;
-        height: 144px;
-        position: relative;
-        top: 48px;
-        left: 7px;
-}
-}
+
 .iscord {
   width: 250px;
   height: 295px;
@@ -229,15 +189,7 @@ font-weight: bold;
 .iscord:hover {
   background-image: url("./Assets/Yellow-Discord.png");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .iscord{
-    width: 404px;
-    height: 152px;
-    top: 43px;
-    left: 2px;
-    position: relative;
-  }
-  }
+
 .Xx {
   width: 250px;
   height: 295px;
@@ -251,15 +203,7 @@ font-weight: bold;
 .Xx:hover {
   background-image: url("./Assets/Yellow-X.png");
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .Xx{
-    width: 404px;
-    height: 165px;
-    position: relative;
-    top: 35px;
-    left: 5px
-  }
-  }
+
 
 
 .Bch1 {
@@ -354,10 +298,113 @@ font-weight: bold;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+  .Xx{
+    width: 464px;
+    height: 165px;
+    position: relative;
+    top: 40px;
+    left: -35px
+  }
+  .iscord{
+    width: 494px;
+    height: 152px;
+    top: 43px;
+    left: -12px;
+    position: relative;
+  }
+  .pensea{
+    width: 452px;
+          height: 144px;
+          position: relative;
+          top: 48px;
+          left: 7px;
+  }
+  .Abu{
+    width: 417px;
+    height: 106px;
+    position: relative;
+    top: 99px;
+    left: 0px;
+  }
+  .QA{
+    width: 480px;
+    height: 161px;
+    position: relative;
+    top: 82px;
+    left: -25px;
+  }
+  .Don{
+    width: 391px;
+    height: 128px;
+    position: relative;
+    top: 102px;
+    left: -15px;
+  }
+  .see-more {
+    position: absolute;
+    top: 162px;
+    right: 0px;
+    left: 57%;
+  }
+  .GbtnF {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 3%;
+    width: 83%;
+    top: 70px;
+    padding-bottom: 40px;
+  }
+  .GbtnFo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 6%;
+    
+    width: 79%;
+    top: -90px;
+    padding-bottom: 40px;
+}
+  .GbtnF, .GbtnFo {
+    width: 97%;
+  }
   .containerF {
     /* background-image: url('./Assets/darkpanic_bg.png'); */
-      height: 0vh;
+      /* height: 0vh; */
       position: relative;
-      top: -538px;
+      /* top: -538px; */
     }
+    .item {
+      flex: 1;
+      margin: 0 10px;
+      /* Adjust spacing between items */
+      text-align: center;
+    }
+    
+    /* .Ycontainer .row-container h2 {
+      font-size: 19px;
+      
+    } */
+    .item h2 {
+      font-size: 15px;
+      
+    }
+.item img {
+  width: 100%;
+  /* height: 50px; */
+  /* max-width: 200px; */
+  /* Adjust the size as needed */
+  display: block;
+  margin: 0 auto;
+}
+.Bch1, .Bch2, .Bch3, .Bch4, .Bch5, .Bch6 {
+  position: absolute;
+  top: 110px;
+  left: 65%;
+  /* margin-left: 7%; */
+  background-size: cover;
+  width: 40%;
+  height: 130px;
+      
+}
 }

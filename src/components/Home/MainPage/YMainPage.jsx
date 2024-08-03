@@ -25,7 +25,7 @@ function MainPage() {
           <a href="https://discord.gg" className="disc">
             
           </a>
-          <div className=" btn2">
+          <div className=" btn2 tys">
           <Link to="/Greetings"><img src={HitchBy}/></Link>
           
           </div>

@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="containerF">
-      <div className="btnF">
+      <div className="YbtnF btnxs">
         <a href="https://discord.gg" className=" pensea">
             
         </a>
@@ -13,7 +13,7 @@ function Footer() {
         <a href="." className=" Xx"></a>
       </div>
       
-      <div className="btnFo">
+      <div className="YbtnFo">
         <a href="." className="Abu">
           
         </a>

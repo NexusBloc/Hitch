@@ -1,7 +1,7 @@
 .Gcont {
   position: relative;
-  top: -480px;
-  /* height: 90vh; */
+  top: -270px;
+  
 }
 .show  {
   margin-bottom: 222px;
@@ -14,13 +14,7 @@
   position: relative;
   top: -59px;
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
-  .btn2 img{
-    top: 31px;
-    left: 22px;
-    width: 120px;
-  }
-}
+
 
 /* .Gcont .homenavs .homebtn {
   /* /* font-size: 120px;
@@ -128,7 +122,7 @@
   width: 85%;
   margin-left: 90px;
   font-weight: bold;
-  word-spacing: 15px;
+  word-spacing: 10px;
 }
 
 
@@ -164,17 +158,43 @@
 "/src/components/Home/panic\ black.png");
 }
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+  .Gcont {
+    margin-top: 50px;
+    height: 379vh;
+  }
   .Gcont .homenavs {
-    /* display: flex; */
+    position: relative;
+    top: 60px;
+    margin-bottom: 120px;
   }
   .Gintro {
     /* width: 80%; */
     left: -50px;
+    top: -60px;
     position: relative;
   }
-  .homebtna{
+  .discN {
+    width: 160px;
+    height: 167px;
+    position: relative;
+    top: 17px;
+    left: 20%;
+    margin-top: 0px;
+  }
+  .Gcont .homenavs .btn2 img {
+    height: 50px;
+    position: relative;
+    top: 65px;
+    left: 1rem;
+    width: 80%;
+
+  }
+  .Gcont .homebtn{
+    width: 57px;
+    position: relative;
+    height: 73px;
     top: 8rem;
-    left: 3rem
+    left: 2rem;
   }
   .Gintro .p {
     font-size: 15px;

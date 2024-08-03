@@ -27,25 +27,31 @@ function MainPage() {
       </div>
         <div className="Gintro">
           <p className='p' >
-            ?an!c(Panic) NFT collectiion is about stories of fantasy Lives after
-            the apocalypse.
+          Greetings, <br/>
+          Hi, I'm Hitch. Creator of ?an!c,
             <br />
             <br />
-            Graphics are a cast of metaphorical characters based on stories and
-            inspired by pixelated 80-90's retro game style of pixel art. Created
-            by Hitch.
+            To all the dear fans, welcome to the ?ortal,
+            Please join to our Discord channel.
             <br />
             <br />
-            Collection will be minted in form of short chapters, each chapter
-            has graphics for your own characters in these ?an!c stories.
+            What is ?an!c-
+-?an!c, we always have it in all our l!ves.
             <br />
             <br />
-            Each ?an!c NFT character has a unique emotional facial expression.
-            This detailed individuality make stories from diversity. Diversity
-            of ?an!c Lives forever on the blockchain.
+            After experiencing a life crisis in any form,
+Our out look on life but the story continues.
             <br />
             <br />
-            48*48 pixel, 6 chapters.
+            Beginning of the story "Surv!vors" are
+characters that survived ?an!c.
+            <br />
+            <br />
+            Let's start a journey with your character
+            exploring new collections.
+            <br />
+            <br />
+            Collect your characters and enter a journey of ?an!c stories.
           </p>
         </div>
         <ChapterOne />

@@ -7,6 +7,7 @@
   background-size: 201%;
 }
 
+
 .containerF {
   /* background-image: url('./panic_bg.png'); */
   /* background-color: pink; */
@@ -73,17 +74,17 @@
   font-weight: bold;
 }
 
-.containerF  .btnF {
+.containerF  .YbtnF {
   display: flex;
   justify-content: space-around;
   position: relative;
   left: -1.5%;
   width: 83%;
-  top: 250px;
+  /* top: 250px; */
   /* padding-bottom: 40px; */
 }
 
-.btnFo {
+.YbtnFo {
   display: flex;
   justify-content: space-around;
   position: relative;
@@ -126,7 +127,7 @@
 
 
 
-.Don {
+.YbtnFo .Don {
   width: 250px;
   height: 295px;
   
@@ -136,10 +137,10 @@
   transition: background-image 0.3s ease-in-out;
 }
 
-.Don:hover {
+.YbtnFo .Don:hover {
   background-image: url("../../Assets/Btns/Black-Contact.png");
 }
-.QA {
+.YbtnFo .QA {
   width: 250px;
   height: 295px;
   
@@ -149,10 +150,10 @@
   transition: background-image 0.3s ease-in-out;
 }
 
-.QA:hover {
+.YbtnFo .QA:hover {
   background-image: url("../../Assets/Btns/Black-Q&A.png ");
 }
-.Abu {
+.YbtnFo .Abu {
   width: 250px;
   height: 295px;
   
@@ -162,7 +163,7 @@
   transition: background-image 0.3s ease-in-out;
 }
 
-.Abu:hover {
+.YbtnFo .Abu:hover {
   background-image: url("../../Assets/Btns/Black-About-us.png");
 }
 
@@ -171,7 +172,7 @@
 
 
 
-.pensea {
+.YbtnF .pensea {
   width: 250px;
   height: 295px;
   
@@ -181,10 +182,10 @@
   transition: background-image 0.3s ease-in-out;
 }
 
-.pensea:hover {
+.YbtnF .pensea:hover {
   background-image: url("../../Assets/Btns/Black-OpenSea.png");
 }
-.iscord {
+.YbtnF .iscord {
   width: 250px;
   height: 295px;
   
@@ -194,10 +195,10 @@
   transition: background-image 0.3s ease-in-out;
 }
 
-.iscord:hover {
+.YbtnF .iscord:hover {
   background-image: url("../../Assets/Btns/Black-Discord.png");
 }
-.Xx {
+.YbtnF .Xx {
   width: 250px;
   height: 295px;
   
@@ -207,7 +208,7 @@
   transition: background-image 0.3s ease-in-out;
 }
 
-.Xx:hover {
+.YbtnF .Xx:hover {
   background-image: url("../../Assets/Btns/Black-X.png");
 }
 
@@ -431,12 +432,70 @@
     height: 30px;
     margin-left: 7%;
   }
-  .containerF  .btnF {
-    /* top: 150px; */
+  .YbtnF .Xx{
+    width: 479px;
+    height: 165px;
+    position: relative;
+    top: 35px;
+    left: 15px
   }
-  .containerF .btnFo {
-    /* top: -28px; */
+  .YbtnF .iscord{
+    width: 494px;
+    height: 152px;
+    top: 43px;
+    left: 21px;
+    position: relative;
   }
+  .YbtnF .pensea{
+    width: 452px;
+          height: 144px;
+          position: relative;
+          top: 48px;
+          left: 20px;
+  }
+  .YbtnFo .Abu{
+    width: 517px;
+    height: 136px;
+    position: relative;
+    top: 99px;
+    left: 0px;
+  }
+  .YbtnFo .QA{
+    width: 500px;
+    height: 161px;
+    position: relative;
+    top: 82px;
+    left: -25px;
+  }
+  .YbtnFo .Don{
+    width: 391px;
+    height: 128px;
+    position: relative;
+    top: 102px;
+    left: -15px;
+  }
+  .btnxs {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 3%;
+    width: 93%;
+    top: 70px;
+    padding-bottom: 40px;
+  }
+  .YbtnFo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 6%;
+    
+    width: 89%;
+    top: -90px;
+    padding-bottom: 40px;
+}
+  /* .YbtnF, .YbtnFo {
+    width: 98%;
+  } */
   
  
 }

@@ -1,4 +1,4 @@
-.container {
+.Ycontainer {
   background-image: url('./panic_bg.png');
   /* background-color: #0D9121; */
   /* height: 0px; */
@@ -114,7 +114,7 @@
   /* flex: 1; */
 }
 
-.copywrite {
+.Ycopywrite {
   display: flex;
   justify-content: center;
   position: relative;
@@ -332,8 +332,8 @@
   /* height: 50px; */
   /* max-width: 200px; */
   /* Adjust the size as needed */
-  display: block;
-  margin: 0 auto;
+  /* display: block; */
+  /* margin: 0 auto; */
 }
 
 .Yitem h2 {
@@ -352,7 +352,8 @@
   margin-top: 370px;
   /* overflow: hidden; */
 }
-  .container{
+  .Ycontainer{
+    /* background-image: url('./panic_bg.png'); */
     /* position: relative; */
     /* bottom: -208px; */
     /* margin-top: 0px; */
@@ -378,9 +379,12 @@
     margin-left: 7%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 40%;
+    width: 42%;
     height: 30px;
         /* max-height: 40px */
+  }
+  .ch1:hover, .ch2:hover, .ch3:hover, .ch4:hover, .ch5:hover, .ch6:hover {
+    background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
   }
   .ch2 {
     position: absolute;
@@ -389,7 +393,7 @@
     margin-left: 7%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 40%;
+    width: 42%;
     height: 30px;
   }
   .ch3 {
@@ -398,7 +402,7 @@
     left: 30%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 40%;
+    width: 42%;
     height: 30px;
     margin-left: 7%;
   }
@@ -408,7 +412,7 @@
     left: 30%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 40%;
+    width: 42%;
     height: 30px;
     margin-left: 7%;
   }
@@ -418,7 +422,7 @@
     left: 30%;
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 40%;
+    width: 42%;
     height: 30px;
     margin-left: 7%;
   }
@@ -428,10 +432,11 @@
     /* left: 30%; */
     background-image: url("../../Assets/Btns/Yellow\ Read\ the\ story\ 1.png");
     background-size: cover;
-    width: 40%;
+    width: 42%;
     height: 30px;
     margin-left: 7%;
   }
+  
   .YbtnF .Xx{
     width: 479px;
     height: 165px;
@@ -465,7 +470,7 @@
     height: 161px;
     position: relative;
     top: 82px;
-    left: -25px;
+    left: -9px;
   }
   .YbtnFo .Don{
     width: 391px;
@@ -474,11 +479,11 @@
     top: 102px;
     left: -15px;
   }
-  .btnxs {
+  .containerF .btnxs {
     display: flex;
     justify-content: space-around;
     position: relative;
-    left: 3%;
+    left: -5%;
     width: 93%;
     top: 70px;
     padding-bottom: 40px;
@@ -487,11 +492,21 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    left: 6%;
+    left: 2%;
     
-    width: 89%;
+    width: 95%;
     top: -90px;
     padding-bottom: 40px;
+}
+.Ycopywrite {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* padding-top: 140px; */
+  height: 40px;
+  font-weight: bold;
+  top: -70px;
+  /* background-image: url('./panic_bg.png'); */
 }
   /* .YbtnF, .YbtnFo {
     width: 98%;

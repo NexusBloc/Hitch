@@ -23,7 +23,7 @@ function Footer() {
       </div>
 
 
-      <p className="copywrite">&copy; Hitch2024</p>
+      <p className="Ycopywrite">&copy; Hitch2024</p>
     </div>
   );
 }

@@ -150,8 +150,11 @@
     /* z-index: 0; */
     left: 30px;
   }
+  .tys img {
+    
+  }
   .Ycont {
-    height: 379vh;
+    height: 349vh;
   }
   .disc{
     width: 160px;
@@ -181,5 +184,11 @@
   .Yhomebtna:hover {
     background-image: url(
   "/src/components/Home/panic\ black.png");
+  }
+  .btn2 img {
+    width: 110px; 
+    height: 130px;
+    /* position: relative; */
+    /* top: -49px; */
   }
   }

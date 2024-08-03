@@ -37,7 +37,7 @@ const Home = ({ children }) => {
     
       <div className="YcontainerFirst">
       <Navbar />
-      <div className="heroSection">
+      <div className="YheroSection">
       {!showWriteUp ? (
         <a href="." className="navbar-log" onClick={handleLogoClick}>
           <img className='logo' src={Logo}/>
@@ -56,7 +56,7 @@ const Home = ({ children }) => {
 
         
       </div>
-      <div className="mainPage">
+      <div className="YmainPage">
         <MainPage />
         <Footer />
       </div>

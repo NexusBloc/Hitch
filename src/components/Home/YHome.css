@@ -6,7 +6,7 @@
 body {
     overflow-x: hidden;
 }
-.YcontainerFirst {
+.YcontainerFirst .YmainPage {
     color: black;
     background-color: #FFD21E;
 }
@@ -73,11 +73,15 @@ body {
         position: relative;
         top: 50px;
     }
+    .YheroSection {
+        height: 78vh;
+    }
     .navbar-log img{
         margin-top: 0px;
     position: relative;
     top: -36px;
-    width: 60%
+    width: 60%;
+    /* margin-bottom: 220pc; */
     }
     .show {
         font-size: 12px;

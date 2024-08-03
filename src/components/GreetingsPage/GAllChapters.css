@@ -1,7 +1,7 @@
 body {
   /* background-color: black; */
 }
-.Ycontainer {
+.Gcontainer {
     background-image: url('./Assets/darkpanic_bg.png');
     background-size: contain;
   }
@@ -367,6 +367,16 @@ font-weight: bold;
 }
   .GbtnF, .GbtnFo {
     width: 97%;
+  }
+  .copywrite {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* padding-top: 140px; */
+    height: 40px;
+    font-weight: bold;
+    top: -70px;
+    /* background-image: url('./panic_bg.png'); */
   }
   .containerF {
     /* background-image: url('./Assets/darkpanic_bg.png'); */

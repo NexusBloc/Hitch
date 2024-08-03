@@ -19,7 +19,7 @@ const ChapterOne = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="Ycontainer">
       <div className="row-container">
         <h2>Chapter 1</h2>
         <h3>?an!c</h3>

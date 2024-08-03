@@ -32,11 +32,11 @@ const ChapterOne = () => {
           {/* {items.map(item => ( */}
           <div className="Yitem">
             <img src={Fcol} alt="Surv!vor" />
-            <h2>Surv!vor</h2>
+            <h2>♀Surv!vor</h2>
           </div>
           <div className="Yitem">
             <img src={Fscol} alt="Surv!vor" />
-            <h2>Surv!vor</h2>
+            <h2>♂Surv!vor</h2>
           </div>
           <div className="Yitem">
             <img src={Img} alt="Surv!vor" />

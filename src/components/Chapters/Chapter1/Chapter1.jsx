@@ -37,11 +37,11 @@ function Chapter1() {
         <div className="CHcontainer">
       <div className="box">
         <img src="path/to/your/image1.png" alt="Survivor 1" className="image" />
-        <p className="text">Survivor</p>
+        <p className="text">♀Survivor</p>
       </div>
       <div className="box">
         <img src="path/to/your/image2.png" alt="Survivor 2" className="image" />
-        <p className="text">Survivor</p>
+        <p className="text">♂Survivor</p>
       </div>
     </div>
     </div>

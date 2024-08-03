@@ -5,8 +5,9 @@
   /* padding-bottom: 75px; */
   /* height: 120vh; */
   /* background-repeat: no-repeat; */
-  background-size: contain;
+  background-size: cover;
   background-image: url('./panic_bg.png');
+  background-size: 201%;
 }
 .btn2 img {
   

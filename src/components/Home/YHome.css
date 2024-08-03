@@ -41,9 +41,10 @@ body {
     top: 350px;
     /* background-position: calc(top); */
     /* padding-bottom: 150px; */
-    background-size: contain;
+    background-size: cover;
 
     background-image: url('./panic_bg.png');
+    background-size: 201%;
   }
   .show {
     font-size: 20px;

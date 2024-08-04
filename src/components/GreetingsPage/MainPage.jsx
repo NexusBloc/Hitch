@@ -18,7 +18,7 @@ function MainPage() {
       <div className="homenavs">
       <div className="homebtn"></div>
         <div className="btn">
-          <a href="https://discord.gg" className="discN">
+          <a href="https://discord.gg/W3kFSWBYCy" className="discN">
           </a>
           <div className=" btn2">
           <Link to="/"><img src={HitchBy}/></Link>

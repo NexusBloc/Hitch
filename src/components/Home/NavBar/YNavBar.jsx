@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './YNavBar.css';
 // import YelloMkp from './mktp.png'
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,7 +19,9 @@ const Navbar = () => {
           {/* <img src={YelloMkp} /> */}
             
           </a>
-          <a href="#" className="col"></a>
+          <Link to='/Chapter1' className="col">
+      </Link>
+          
           <a href="#" className="mint"></a>
           <a href="#" className="con"></a>
         </div>

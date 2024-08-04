@@ -1,23 +1,26 @@
 import React from "react";
 // import './Footer.css'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import AboutUs from '../../About-us/AboutUs.jsx'
 
 function Footer() {
   return (
     <div className="containerF">
       <div className="YbtnF btnxs">
-        <a href="https://discord.gg" className=" pensea">
+        <a href="https://opensea.io" className=" pensea">
             
         </a>
-        <a href="." className=" iscord"></a>
+        <a href="https://discord.gg/W3kFSWBYCy" className=" iscord"></a>
 
-        <a href="." className=" Xx"></a>
+        <a href="https://x.com/PanicNFTs" className=" Xx"></a>
       </div>
       
       <div className="YbtnFo">
-        <a href="." className="Abu">
-          
-        </a>
-        <a href="." className="Don"></a>
+      
+      <Link to='/AboutUs' className="Abu">
+      </Link>
+        
+        <a href="mailto:panic@panicnft.xyz" className="Don"></a>
 
         <a href="." className=" QA"></a>
       </div>

@@ -1,23 +1,25 @@
 import React from "react";
 // import './Footer.css'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className="containerF">
+    <div className="GcontainerF">
       <div className="GbtnF">
-        <a href="https://discord.gg" className=" pensea">
+        <a href="https://opensea.io" className=" pensea">
             
         </a>
-        <a href="." className=" iscord"></a>
+        <a href="https://discord.gg/W3kFSWBYCy" className=" iscord"></a>
 
-        <a href="." className=" Xx"></a>
+        <a href="https://x.com/PanicNFTs" className=" Xx"></a>
       </div>
       
       <div className="GbtnFo">
-        <a href="." className="Abu">
+      <Link to='/AboutUs' className="Abu">
+      </Link>
           
-        </a>
-        <a href="." className="Don"></a>
+        
+        <a href="mailto:panic@panicnft.xyz" className="Don"></a>
 
         <a href="." className=" QA"></a>
       </div>

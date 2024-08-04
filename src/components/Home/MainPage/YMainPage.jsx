@@ -22,7 +22,7 @@ function MainPage() {
       <div className="Yhomebtna"></div>
       
         <div className="btn">
-          <a href="https://discord.gg" className="disc">
+          <a href="https://discord.gg/W3kFSWBYCy" className="disc">
             
           </a>
           <div className=" btn2 tys">

@@ -5,11 +5,11 @@ body {
     background-image: url('./Assets/darkpanic_bg.png');
     background-size: contain;
   }
-.containerF {
+.GcontainerF {
   /* background-image: url('./Assets/darkpanic_bg.png'); */
     height: 10vh;
     position: relative;
-    top: -220px;
+    top: -480px;
   }
 .row-container {
     position: relative;

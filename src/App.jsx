@@ -9,6 +9,7 @@ import Chapter3 from './components/Chapters/Chapter3/Chapter3.jsx'
 import Chapter4 from './components/Chapters/Chapter4/Chapter4.jsx'
 import Chapter5 from './components/Chapters/Chapter5/Chapter5.jsx'
 import Chapter6 from './components/Chapters/Chapter6/Chapter6.jsx'
+import AboutUs from './components/About-us/AboutUs.jsx'
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/Chapter5" element={<Chapter5 />} />
           <Route path="/Chapter6" element={<Chapter6 />} />
           <Route path="/Greetings" element={<Greetings />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,93 @@
+body {
+    font-family: 'FallbackFont', sans-serif;
+  }
+
+.about-us-container {
+    padding: 20px;
+    background-color: #ffcb00;
+    /* height: 100vh; */
+    padding-left: 80px;
+    background-image: url('./panic_bg.png');
+    /* font-family: 'Arial', sans-serif; */
+  }
+  
+  .about-us-container h2 {
+    /* text-align: left; */
+    margin-left: 95px;
+    margin-bottom: 40px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* border: 1px solid #000; */
+    padding: 10px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+  }
+  
+  .profile-pic {
+    width: 22%;
+    height: 200px;
+    margin-right: 20px;
+    position: relative;
+    top: -15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  
+  .profile-pic.hitch {
+    background-image: url('./Hitch\ 0.png');
+  }
+  
+  .profile-pic.spicyD {
+    background-image: url('./SpicyD\ 0.png');
+  }
+  
+  .profile-pic.spiral {
+    background-image: url('./Spiral\ 0.png');
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .profile-info h3 {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .profile-info p {
+    width: 80%;
+    margin: 0;
+    word-spacing: 12px;
+    line-height: 30px;
+  }
+  
+  @media only screen and (max-width: 767px) and (min-width: 320px) {
+    .about-us-container{
+        padding-left: 50px;
+        /* width: 70%; */
+    }
+    .profile-info p {
+        width: 100%;
+    }
+    
+
+    .profile {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .profile-pic {
+      /* width: 40px; */
+      /* height: 40px; */
+      margin-bottom: 10px;
+      margin-left: 15%;
+      width: 70%;
+      justify-content: center;
+    }
+  }
+  

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './NavBar.css';
 // import YelloMkp from './mktp.png'
 
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,7 +20,8 @@ const Navbar = () => {
           {/* <img src={YelloMkp} /> */}
             
           </a>
-          <a href="#" className="Gcol"></a>
+          <Link to='/Chapter1' className="Gcol">
+          </Link>
           <a href="#" className="Gmint"></a>
           <a href="#" className="Gcon"></a>
         {/* <div className={`navbar-buttons ${menuOpen ? 'open' : ''}`}>

@@ -21,11 +21,11 @@ function Footer() {
         
         <a href="mailto:panic@panicnft.xyz" className="Don"></a>
 
-        <Link to='/QandA' className="QA"></Link>
+        {/* <Link to='/QandA' className="QA"></Link> */}
       </div>
 
 
-      <p className="copywrite">&copy; Hitch2024</p>
+      <p className="copywrite">&copy;Hitch2024</p>
     </div>
   );
 }

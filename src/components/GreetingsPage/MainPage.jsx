@@ -27,24 +27,24 @@ function MainPage() {
       </div>
         <div className="Gintro">
           <p className='p' >
-          Greetings, <br/>
-          Hi, I'm Hitch. Creator of ?an!c,
+          Greetings <br/>
+          Hi, I'm Hitch. Creator of ?an!c.
             <br />
             <br />
-            To all the dear fans, welcome to the ?ortal,
-            Please join to our Discord channel.
+            To all the dear fans, welcome to the ?an!c ?ortal.
+            Please join our Discord channel.
             <br />
             <br />
-            What is ?an!c-
--?an!c, we always have it in all our l!ves.
+            What is ?an!c–
+            –?an!c, we always have it in all our l!ves.
             <br />
             <br />
             After experiencing a life crisis in any form,
-Our out look on life but the story continues.
+            our outlook on life changes but the story continues.
             <br />
             <br />
-            Beginning of the story "Surv!vors" are
-characters that survived ?an!c.
+            Beginning of the story “Surv!vors” are
+            characters that survived ?an!c.
             <br />
             <br />
             Let's start a journey with your character

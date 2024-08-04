@@ -17,7 +17,7 @@ function MainPage() {
   return (
     <>
       <div className="Ycont">
-      <div className="homenavs">
+      <div className="homenavs bmarg">
       
       <div className="Yhomebtna"></div>
       
@@ -34,12 +34,12 @@ function MainPage() {
         {/* <Background/> */}
         <div className="Yintro">
           <p>
-            ?an!c(Panic) NFT collectiion is about stories of fantasy Lives after
+            ?an!c(Panic) NFT collectiion is about stories of fantasy lives after
             the apocalypse.
             <br />
             <br />
             Graphics are a cast of metaphorical characters based on stories and
-            inspired by pixelated 80-90's retro game style of pixel art. Created
+            inspired by pixelated 80–90's retro game style of pixel art. Created
             by Hitch.
             <br />
             <br />
@@ -52,7 +52,7 @@ function MainPage() {
             of ?an!c Lives forever on the blockchain.
             <br />
             <br />
-            48*48 pixel, 6 chapters.
+            48&times;48 pixel, 6 chapters.
           </p>
         </div>
         <ChapterOne />

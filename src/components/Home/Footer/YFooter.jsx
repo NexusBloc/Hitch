@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className="containerF">
+    <>
+      <div className="containerF">
+      
       <div className="YbtnF btnxs">
         <a href="https://opensea.io" className=" pensea">
             
@@ -22,12 +24,14 @@ function Footer() {
         
         <a href="mailto:panic@panicnft.xyz" className="Don"></a>
         
-        <Link to='/QandA' className="QA"></Link>
+        
       </div>
 
 
-      <p className="Ycopywrite">&copy; Hitch2024</p>
+      
     </div>
+      <p className="Ycopywrite">&copy;Hitch2024</p>
+    </>
   );
 }
 

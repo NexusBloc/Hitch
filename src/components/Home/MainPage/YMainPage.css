@@ -6,11 +6,11 @@
   background-image: url('./panic_bg.png');
   background-size: 201%;
 }
-.btn2 img {
+.homenavs .btn .tys img {
   width: 150px; 
-  height: 130px;
+  height: 150px;
   position: relative;
-  top: -49px;
+  top: -59px;
 }
 .disc {
   width: 310px;
@@ -49,6 +49,7 @@
 .Ycont .homenavs {
   position: relative;
   top: -230px;
+  /* padding-top: 120px; */
   margin-bottom: -70px;
 }
 .btn {
@@ -122,7 +123,7 @@
   position: absolute;
 }
 .Yintro p {
-  font-size: 25px;
+  font-size: 27px;
   width: 85%;
   word-spacing: 15px;
 }

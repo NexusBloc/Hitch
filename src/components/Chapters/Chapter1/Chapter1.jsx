@@ -39,7 +39,7 @@ function Chapter1() {
         <img src="path/to/your/image1.png" alt="Survivor 1" className="image" />
         <p className="text">♀Survivor</p>
       </div>
-      <div className="box">
+      <div className="boxb">
         <img src="path/to/your/image2.png" alt="Survivor 2" className="image" />
         <p className="text">♂Survivor</p>
       </div>

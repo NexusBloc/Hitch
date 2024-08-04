@@ -7,18 +7,21 @@ body {
     overflow-x: hidden;
 }
 .YcontainerFirst .YmainPage {
-    color: black;
+    /* color: black; */
     background-color: #FFD21E;
 }
 .navbar-log img {
     width: 30%;
+    /* height: 120px; */
+    
 }
 
 .navbar-log {
+    margin-bottom: 250px;
     font-size: 104px;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    /* color: black; */
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -35,13 +38,14 @@ body {
     background-size: cover;
     background-size: 201%;
   }
-  .show {
+  .Yshow {
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     padding-top: 4px;
     position: relative;
     top: -70px;
+    margin-bottom: 447px;
   }
   .write-up {
     position: relative;
@@ -61,7 +65,7 @@ body {
     .YcontainerFirst {
         width: 100%;
         overflow-x: scroll;
-        color: black;
+        /* color: black; */
         overflow-y: scroll;
         /* z-index: -1000; */
         /* position: relative; */
@@ -83,7 +87,7 @@ body {
     width: 60%;
     /* margin-bottom: 220pc; */
     }
-    .show {
+    .Yshow {
         font-size: 12px;
         cursor: pointer;
         font-weight: bold;

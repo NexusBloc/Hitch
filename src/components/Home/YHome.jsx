@@ -13,10 +13,13 @@ const Home = ({ children }) => {
   useEffect(() => {
     // Change body background color when the component is mounted
     document.body.style.backgroundColor = '#FFD21E';
+    document.body.style.color = 'black'
 
     // Revert body background color when the component is unmounted
     return () => {
       document.body.style.backgroundColor = '';
+      document.body.style.color = '';
+
     };
   }, []);
 
@@ -44,7 +47,7 @@ const Home = ({ children }) => {
         </a>
       ) : (
         <div className="write-up" onClick={handleCloseClick}>
-          <p className="navbar-logo show">-This is the moon. Our dreamland, the land of free beings. <br/>
+          <p className="navbar-logo Yshow">-This is the moon. Our dreamland, the land of free beings. <br/>
           One race with many identites. <br/>
           Let's tell their stories-
           </p>

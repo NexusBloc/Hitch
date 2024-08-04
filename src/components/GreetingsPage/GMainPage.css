@@ -44,7 +44,7 @@
 }
 .Gcont .homenavs .btn .panicportal {
     text-decoration: none;
-  color: yellow;
+  /* color: yellow; */
   font-weight: bold;
     border: 1px solid transparent;
     transition: border 0.3s;
@@ -161,7 +161,7 @@
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .Gcont {
     margin-top: 50px;
-    height: 349vh;
+    height: 1700px;
   }
   .Gcont .homenavs {
     position: relative;

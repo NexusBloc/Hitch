@@ -383,6 +383,7 @@ font-weight: bold;
       /* height: 0vh; */
       position: relative;
       /* top: -538px; */
+      margin-top: 570px;
     }
     .item {
       flex: 1;

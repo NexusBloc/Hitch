@@ -1,22 +1,27 @@
 /* src/App.css */
 @font-face {
   font-family: 'Anic';
-  src: url('./components/Assets/Fonts/panic.otf') format('opentype');
+  src: url('./panic.otf') format('opentype');
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Anic';
-  src: url('./components/Assets/Fonts/panicLight.otf') format('opentype');
+  src: url('./panicLight.otf') format('opentype');
   font-weight: 300;
+  font-display: swap;
 }
 
 body {
-  font-family:'Anic', sans-serif;
+  /* font-family:'Anic', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  font-family: 'FallbackFont', sans-serif;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

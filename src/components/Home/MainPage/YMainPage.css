@@ -65,7 +65,7 @@
 
 .panicportal {
     text-decoration: none;
-  color: black;
+  /* color: black; */
   font-weight: bold;
     border: 1px solid transparent;
     transition: border 0.3s;
@@ -85,7 +85,7 @@
 .btn2 {
     
     text-decoration: none;
-    color: black;
+    /* color: black; */
     font-weight: bold;
       border: 1px solid transparent;
       transition: border 0.3s;
@@ -107,7 +107,7 @@
   /* position: absolute; */
   font-weight: bold;
   width: 100%;
-  height: 100vh;
+  height: 400px;
   position: relative;
   top: -150px;
   /* background-image: url("./panic_bg.png"); */
@@ -154,7 +154,7 @@
     
   }
   .Ycont {
-    height: 349vh;
+    height: 1560px;
   }
   .disc{
     width: 160px;
@@ -168,7 +168,7 @@
     font-size: 15px;
     width: 85%;
     word-spacing: 12px;
-    color: black;
+    /* color: black; */
   }
   .Yhomebtna{
     width: 57px;

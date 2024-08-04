@@ -97,7 +97,7 @@
 
 .panicportalF {
   text-decoration: none;
-  color: black;
+  /* color: black; */
   font-weight: bold;
   border: 1px solid transparent;
   transition: border 0.3s;
@@ -121,7 +121,7 @@
   /* padding-top: 140px; */
   height: 40px;
   font-weight: bold;
-  top: 70px;
+  top: -90px;
   /* background-image: url('./panic_bg.png'); */
 }
 
@@ -338,18 +338,18 @@
 
 .Yitem h2 {
   font-size: 15px;
-  color: black;
+  /* color: black; */
 }
 .Yitem h3 {
   /* font-size: 15px; */
-  color: black;
+  /* color: black; */
 }
 .containerF {
   /* background-image: url('./panic_bg.png'); */
   /* background-color: pink; */
   /* height: 10px; */
   position: relative;
-  margin-top: 370px;
+  margin-top: 570px;
   /* overflow: hidden; */
 }
   .Ycontainer{
@@ -361,7 +361,7 @@
     position: relative;
     /* padding-left: -25px; */
     /* left: -3.1%; */
-    color: black;
+    /* color: black; */
   }
   .row-container {
     position: relative;

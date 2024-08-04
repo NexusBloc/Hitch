@@ -14,10 +14,14 @@
     position: relative;
     top: 150px;
     background-image: url('./Assets/darkpanic_bg.png');
-    color: yellow;
+    /* color: yellow; */
     background-size: contain;
   }
   @media only screen and (max-width: 767px) and (min-width: 320px) {
+    .BcontainerFirst .BmainPage {
+        /* background-repeat: no-repeat; */
+
+    }
     .BcontainerFirst .heroSection .logo {
         width: 100%;
         position: relative;

@@ -1,0 +1,8 @@
+.QAcontainer {
+    padding: 20px;
+    background-color: #ffcb00;
+    /* height: 100vh; */
+    padding-left: 80px;
+    background-image: url('./panic_bg.png');
+    /* font-family: 'Arial', sans-serif; */
+  }

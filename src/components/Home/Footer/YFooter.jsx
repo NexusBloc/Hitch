@@ -21,8 +21,8 @@ function Footer() {
       </Link>
         
         <a href="mailto:panic@panicnft.xyz" className="Don"></a>
-
-        <a href="." className=" QA"></a>
+        
+        <Link to='/QandA' className="QA"></Link>
       </div>
 
 

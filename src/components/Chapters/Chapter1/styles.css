@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+
 .conta1 {
     background-image: url('../Assets/chpanic.GIF');
     background-size: contain;
@@ -13,7 +16,12 @@
     width: 70%;
     font-weight: bold;
     left: 180px;
-    color: yellow;
+    color: #FFD21E;
+    font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 2px 2px #EBBE0A;
 }
 .CHcontainer {
     display: flex;
@@ -27,6 +35,13 @@
   }
   
   .box {
+    /* background-color: orange; Adjust this to match the background color in your image */
+    padding: 20px;
+    /* border: 2px solid red; Adjust this to match the border style in your image */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust this to match the shadow effect in your image */
+    text-align: center;
+  }
+  .boxb {
     /* background-color: orange; Adjust this to match the background color in your image */
     padding: 20px;
     /* border: 2px solid red; Adjust this to match the border style in your image */
@@ -50,9 +65,21 @@
   }
   
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+    .conta1{
+        background-image: url('../Assets/chpanic.GIF');
+        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* background-position: center center; */
+        width: 100vw;
+        height: 100vh;
+        /* background-color: #ff501e; */
+        /* overflow: hidden; */
+        overflow-y: hidden;
+    }
     .introP{
         left: 35px;
-        top: 65px;
+        top: 193px;
         width: 86%;
     }
     .CHcontainer {
@@ -62,10 +89,21 @@
       }
 
       .box {
-        width: 100px; /* Adjust this to fit your image size */
-        height: 80px; /* Adjust this to fit your image size */
+        width: 48px;
+        height: 48px;
+        position: relative;
+        left: 66px;
+        top: 197px;
+      }
+        .boxb {
+            width: 48px;
+        height: 48px;
+        position: relative;
+        top: 197px;
+        left: -73px;
       }
       .text {
-        top: 35px;
+        top: 8px;
+        left: -40px;
       }
 }

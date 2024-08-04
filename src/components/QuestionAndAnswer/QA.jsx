@@ -1,4 +1,5 @@
 import React from 'react'
+import './QA.css'
 
 function QA() {
   return (

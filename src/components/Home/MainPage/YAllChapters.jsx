@@ -25,7 +25,6 @@ const ChapterOne = () => {
         <h3>?an!c</h3>
         <Link to="/Chapter1">
         <div className="see-more ch1">
-          
           </div>
         </Link>
         <div className="items">

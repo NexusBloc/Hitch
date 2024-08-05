@@ -2,22 +2,13 @@
 
 .Ycontainer {
   background-image: url('./panic_bg.png');
-  /* background-color: #0D9121; */
-  /* height: 0px; */
   background-size: cover;
-  /* margin-top: -160px; */
   background-size: 201%;
   margin-top: 100px;
-
-   /* color: #FFD21E; */
-
 }
 
 
 .containerF {
-  /* background-image: url('./panic_bg.png'); */
-  /* background-color: pink; */
-  /* height: 10px; */
   position: relative;
   margin-top: 0px;
   margin-left: 200px;
@@ -31,20 +22,12 @@
   width: 87%;
   left: 6.1%;
   padding: 20px;
-  /* padding-top: 26px; */
-  
   box-sizing: border-box;
 }
 
 .row-container h3 {
   margin-left: 15px;
 }
-
-
-
-
-
-
 
 .Ycontainer .row-container .items {
   display: flex;
@@ -75,7 +58,7 @@
   font-weight: bold;
 }
 
-.containerF  .YbtnF {
+.containerF .YbtnF {
   display: flex;
   justify-content: space-around;
   position: relative;
@@ -124,11 +107,8 @@
   font-weight: bold;
   top: 10px;
   font-size: 27px;
-
-
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
-  
   font-style: normal;
   font-size: 19px;
   text-shadow: 1px 1px #EBBE0A;
@@ -331,6 +311,10 @@
   
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+  .Ycontainer {
+    position: absolute;
+    top: -60px;
+    }
   .items {
   display: flex;
   justify-content: space-between;
@@ -367,8 +351,28 @@
   /* background-color: pink; */
   /* height: 10px; */
   position: relative;
-  margin-top: 570px;
+  top: 170px;
+  /* margin-top: 870px; */
   /* overflow: hidden; */
+}
+
+.containerF .YbtnF {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 3%;
+  width: 247%;
+  top: -70px;
+  padding-bottom: 40px;
+}
+.containerF .YbtnFo {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: -76%;
+  width: 147%;
+  top: -10px;
+  padding-bottom: 40px;
 }
   .Ycontainer{
     /* background-image: url('./panic_bg.png'); */
@@ -377,15 +381,17 @@
     /* margin-top: 0px; */
     height: 230vh;
     position: relative;
+    width: 90%;
     /* padding-left: -25px; */
     /* left: -3.1%; */
     /* color: black; */
   }
-  .row-container {
+  .Ycontainer .row-container {
     position: relative;
     /* width: 85%; */
-    left: -30px;
+    /* left: -30px; */
     /* padding-left: -20px; */
+    top: -140px;
     padding: 20px;
     box-sizing: border-box;
   }
@@ -456,42 +462,42 @@
   }
   
   .YbtnF .Xx{
-    width: 479px;
+    /* width: 479px; */
     height: 165px;
     position: relative;
     top: 35px;
     left: 15px
   }
   .YbtnF .iscord{
-    width: 494px;
+    /* width: 494px; */
     height: 152px;
     top: 43px;
     left: 21px;
     position: relative;
   }
   .YbtnF .pensea{
-    width: 452px;
+    /* width: 452px; */
           height: 144px;
           position: relative;
           top: 48px;
           left: 20px;
   }
   .YbtnFo .Abu{
-    width: 517px;
+    /* width: 517px; */
     height: 136px;
     position: relative;
     top: 99px;
     left: 0px;
   }
   .YbtnFo .QA{
-    width: 500px;
+    /* width: 500px; */
     height: 161px;
     position: relative;
     top: 82px;
     left: -9px;
   }
   .YbtnFo .Don{
-    width: 391px;
+    /* width: 391px; */
     height: 128px;
     position: relative;
     top: 102px;
@@ -501,9 +507,9 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    left: -5%;
-    width: 93%;
-    top: 70px;
+    left: -130%;
+    width: 210%;
+    top: 150px;
     padding-bottom: 40px;
   }
   .YbtnFo {
@@ -512,7 +518,7 @@
     position: relative;
     left: 2%;
     
-    width: 95%;
+    /* width: 95%; */
     top: -90px;
     padding-bottom: 40px;
 }
@@ -523,9 +529,14 @@
   /* padding-top: 140px; */
   height: 40px;
   font-weight: bold;
-  top: -70px;
+  top: 220px;
+  font-size: 15px;
   /* background-image: url('./panic_bg.png'); */
 }
+.Ycontainer .row-container .see-more {
+  position: absolute;
+  top: 170px;
+  }
   /* .YbtnF, .YbtnFo {
     width: 98%;
   } */

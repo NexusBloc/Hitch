@@ -9,7 +9,7 @@ body {
   /* background-image: url('./Assets/darkpanic_bg.png'); */
     height: 10vh;
     position: relative;
-    top: -480px;
+    top: 410px;
   }
 .row-container {
     position: relative;
@@ -349,7 +349,7 @@ font-weight: bold;
     height: 128px;
     position: relative;
     top: 102px;
-    left: -15px;
+    left: -8px;
   }
   .see-more {
     position: absolute;
@@ -362,7 +362,7 @@ font-weight: bold;
     justify-content: space-around;
     position: relative;
     left: 3%;
-    width: 83%;
+    width: 97%;
     top: 70px;
     padding-bottom: 40px;
   }
@@ -370,23 +370,22 @@ font-weight: bold;
     display: flex;
     justify-content: space-around;
     position: relative;
-    left: 6%;
-    
+    /* left: 16%; */
     width: 79%;
-    top: -90px;
+    top: -110px;
     padding-bottom: 40px;
 }
   .GbtnF, .GbtnFo {
-    width: 97%;
+    /* width: 97%; */
   }
   .copywrite {
     display: flex;
     justify-content: center;
     position: relative;
-    /* padding-top: 140px; */
     height: 40px;
     font-weight: bold;
-    top: -70px;
+    top: -30px;
+    font-size: 15px;
     /* background-image: url('./panic_bg.png'); */
   }
   .containerF {
@@ -409,7 +408,6 @@ font-weight: bold;
     } */
     .item h2 {
       font-size: 15px;
-      
     }
 .item img {
   width: 100%;

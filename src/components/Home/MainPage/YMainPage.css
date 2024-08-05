@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
 
 .Ycont {
   position: relative;
@@ -5,6 +7,15 @@
   background-size: cover;
   background-image: url('./panic_bg.png');
   background-size: 201%;
+
+
+   /* color: #FFD21E; */
+   font-family: "Pixelify Sans", sans-serif;
+   font-optical-sizing: auto;
+   
+   font-style: normal;
+   font-size: 19px;
+   text-shadow: 1px 1px #EBBE0A;
 }
 .homenavs .btn .tys img {
   width: 150px; 
@@ -126,6 +137,10 @@
   font-size: 27px;
   width: 85%;
   word-spacing: 15px;
+
+
+  
+ 
 }
 .Yhomebtna{
   width: 100px;

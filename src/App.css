@@ -12,11 +12,16 @@
   font-weight: 300;
   font-display: swap;
 }
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+
 
 body {
   /* font-family:'Anic', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+ 
 }
 
 body {

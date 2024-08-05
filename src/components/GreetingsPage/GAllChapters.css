@@ -110,6 +110,15 @@ font-weight: bold;
   font-weight: bold;
   top: 70px;
   font-size: 27px;
+
+
+   /* color: #FFD21E; */
+   font-family: "Pixelify Sans", sans-serif;
+   font-optical-sizing: auto;
+   
+   font-style: normal;
+   font-size: 19px;
+   text-shadow: 1px 1px #EBBE0A;
   /* background-image: url('./panic_bg.png'); */
 }
 

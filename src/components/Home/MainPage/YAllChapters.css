@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
 .Ycontainer {
   background-image: url('./panic_bg.png');
   /* background-color: #0D9121; */
   /* height: 0px; */
   background-size: cover;
-  margin-top: -160px;
+  /* margin-top: -160px; */
   background-size: 201%;
+  margin-top: 100px;
+
+   /* color: #FFD21E; */
+
 }
 
 
@@ -25,6 +31,8 @@
   width: 87%;
   left: 6.1%;
   padding: 20px;
+  /* padding-top: 26px; */
+  
   box-sizing: border-box;
 }
 
@@ -38,19 +46,10 @@
 
 
 
-.see-more a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  padding: 10px 25px 15px 25px;
-  border-radius: 50%;
-  background-color: #ce9c11;
-}
-
-.items {
+.Ycontainer .row-container .items {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 90px;
   /* Ensures 'See More' link doesn't overlap items */
 }
 
@@ -125,6 +124,14 @@
   font-weight: bold;
   top: 10px;
   font-size: 27px;
+
+
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-size: 19px;
+  text-shadow: 1px 1px #EBBE0A;
   /* background-image: url('./panic_bg.png'); */
 }
 
@@ -315,6 +322,13 @@
 .ch6:hover {
   background-image: url("../../Assets/Btns/Clicked-Chapter6.png");
 }
+
+
+.Ycontainer .row-container .see-more {
+  position: absolute;
+  top: 50px;
+  }
+  
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .items {

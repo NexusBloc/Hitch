@@ -1,5 +1,9 @@
 import React, {useEffect} from 'react'
 import './styles.css'
+import Fcol from "../Assets/male-square48.gif";
+import Fscol from "../Assets/female-square48.gif";
+
+
 function Chapter1() {
   useEffect(() => {
     // Change body background color when the component is mounted
@@ -36,11 +40,11 @@ function Chapter1() {
         </div>
         <div className="CHcontainer">
       <div className="box">
-        <img src="path/to/your/image1.png" alt="Survivor 1" className="image" />
+        <img src={Fcol} alt="Survivor 1" className="image" />
         <p className="text">♀Survivor</p>
       </div>
       <div className="boxb">
-        <img src="path/to/your/image2.png" alt="Survivor 2" className="image" />
+        <img src={Fscol} alt="Survivor 2" className="image" />
         <p className="text">♂Survivor</p>
       </div>
     </div>

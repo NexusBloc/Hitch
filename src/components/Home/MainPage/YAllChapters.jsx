@@ -7,8 +7,8 @@ import Img2 from "./Assets/pch3.png";
 import Img3 from "./Assets/pch4.png";
 import Img4 from "./Assets/pch5.png";
 import Img5 from "./Assets/pch6.png";
-import Fcol from "./Assets/fcol.png";
-import Fscol from "./Assets/fscol.png";
+import Fcol from "./Assets/male-survvor.gif";
+import Fscol from "./Assets/female-survvor.gif";
 
 const ChapterOne = () => {
   const items = [

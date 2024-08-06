@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
-      <div className="containerF">
+      <div className="YcontainerF">
       
       <div className="YbtnF btnxs">
         <a href="https://opensea.io" className=" pensea">

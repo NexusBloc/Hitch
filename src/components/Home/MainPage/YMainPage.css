@@ -10,12 +10,9 @@
 
 
    /* color: #FFD21E; */
-   font-family: "Pixelify Sans", sans-serif;
-   font-optical-sizing: auto;
-   
-   font-style: normal;
-   font-size: 19px;
-   text-shadow: 1px 1px #EBBE0A;
+   font-family: "Anic", sans-serif;
+   text-shadow: 1px 1px #0A0A0A;
+
 }
 .homenavs .btn .tys img {
   width: 150px; 

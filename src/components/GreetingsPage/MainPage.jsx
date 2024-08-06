@@ -6,7 +6,7 @@ import "./GMainPage.css";
 // import ThemeProvider from './ThemeContext';
 // import { ThemeContext } from '../ThemeContext';
 import ChapterOne from "./AllChapters";
-import HitchBy from './Assets/byhitch1.PNG';
+import HitchBy from './Assets/byhitch1.png';
 
 
 function MainPage() {

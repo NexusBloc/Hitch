@@ -19,7 +19,7 @@ const ChapterOne = () => {
   ];
 
   return (
-    <div className="Ycontainer">
+    <div className="Ycontainer footing">
       <div className="row-container">
         <h2>Chapter 1</h2>
         <h3>?an!c</h3>
@@ -29,20 +29,20 @@ const ChapterOne = () => {
         </Link>
         <div className="items">
           {/* {items.map(item => ( */}
-          <div className="Yitem">
-            <img src={Fcol} alt="Surv!vor" />
+          <div className="Yitem ">
+            <img className="asizea" src={Fcol} alt="Surv!vor" />
             <h2>♀Surv!vor</h2>
           </div>
-          <div className="Yitem">
-            <img src={Fscol} alt="Surv!vor" />
+          <div className="Yitem ">
+            <img className="asizea" src={Fscol} alt="Surv!vor" />
             <h2>♂Surv!vor</h2>
           </div>
-          <div className="Yitem">
-            <img src={Img} alt="Surv!vor" />
+          <div className="Yitem ">
+            <img className="asizeb" src={Img} alt="Surv!vor" />
             <h2>???</h2>
           </div>
-          <div className="Yitem">
-            <img src={Img} alt="Surv!vor" />
+          <div className="Yitem ">
+            <img className="asizeb" src={Img} alt="Surv!vor" />
             <h2>???</h2>
           </div>
           {/* ))} */}
@@ -59,7 +59,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="Yitem" key={item.id}>
-              <img src={Img1} alt={item.title} />
+              <img className="asizebr" src={Img1} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -76,7 +76,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="Yitem" key={item.id}>
-              <img src={Img2} alt={item.title} />
+              <img className="asizebr" src={Img2} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -93,7 +93,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="Yitem" key={item.id}>
-              <img src={Img3} alt={item.title} />
+              <img className="asizebr" src={Img3} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -110,7 +110,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="Yitem" key={item.id}>
-              <img src={Img4} alt={item.title} />
+              <img className="asizebr" src={Img4} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -127,7 +127,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="Yitem" key={item.id}>
-              <img src={Img5} alt={item.title} />
+              <img className="asizebr" src={Img5} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}

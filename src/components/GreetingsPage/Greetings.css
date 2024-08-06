@@ -3,7 +3,9 @@
 
 
 .containerFirst1 {
+    font-family: "Anic", sans-serif;
     overflow-x: hidden;
+    text-shadow: 1px 1px #EBBE0A;
 }
 .BcontainerFirst .heroSection .logo {
     width: 100%;

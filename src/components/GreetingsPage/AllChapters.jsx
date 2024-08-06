@@ -40,11 +40,11 @@ const ChapterOne = () => {
             <h2>♂Surv!vor</h2>
           </div>
           <div className="item">
-            <img src={Img} alt="Surv!vor" />
+            <img className="asizeb" src={Img} alt="Surv!vor" />
             <h2>???</h2>
           </div>
           <div className="item">
-            <img src={Img} alt="Surv!vor" />
+            <img className="asizeb" src={Img} alt="Surv!vor" />
             <h2>???</h2>
           </div>
           {/* ))} */}
@@ -61,7 +61,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="item" key={item.id}>
-              <img src={Img1} alt={item.title} />
+              <img className="asizebr" src={Img1} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -78,7 +78,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="item" key={item.id}>
-              <img src={Img2} alt={item.title} />
+              <img className="asizebr" src={Img2} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -95,7 +95,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="item" key={item.id}>
-              <img src={Img3} alt={item.title} />
+              <img className="asizebr" src={Img3} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -112,7 +112,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="item" key={item.id}>
-              <img src={Img4} alt={item.title} />
+              <img className="asizebr" src={Img4} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}
@@ -130,7 +130,7 @@ const ChapterOne = () => {
         <div className="items">
           {items.map((item) => (
             <div className="item" key={item.id}>
-              <img src={Img5} alt={item.title} />
+              <img className="asizebr" src={Img5} alt={item.title} />
               <h2>???</h2>
             </div>
           ))}

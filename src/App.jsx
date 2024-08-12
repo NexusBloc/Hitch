@@ -12,6 +12,7 @@ import Chapter6 from './components/Chapters/Chapter6/Chapter6.jsx'
 import AboutUs from './components/About-us/AboutUs.jsx'
 import QandA from './components/QuestionAndAnswer/QA.jsx'
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from './ScrollToTop.jsx';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     
     
       <Router>
+      <ScrollToTop/>
         <Routes>
         <Route path="/" element={<Home />} />
 

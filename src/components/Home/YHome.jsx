@@ -47,9 +47,9 @@ const Home = ({ children }) => {
         </a>
       ) : (
         <div className="write-up" onClick={handleCloseClick}>
-          <p className="navbar-logo Yshow">-This is the moon. Our dreamland,<br/> the land of free beings. <br/>
-          One race with many identites. <br/>
-          Let's tell their stories-
+          <p className="navbar-logo Yshow">–This is the moon, our dreamland.<br/> The land of free beings. <br/>
+          One race with many identities. <br/>
+          Let's tell their stories–
           </p>
           {/* <p className="navbar-logo show">One race with many identites.</p>
           <p className="navbar-logo show">Let's tell their stories-</p> */}

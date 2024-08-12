@@ -1,14 +1,14 @@
 /* src/App.css */
 @font-face {
   font-family: 'Anic';
-  src: url('./panicLight.otf') format('opentype');
+  src: url('./panicLight.woff2') format('opentype');
   font-weight: bold;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Anic';
-  src: url('./panicLight.otf') format('opentype');
+  src: url('./panicLight.woff2') format('opentype');
   font-weight: 300;
   font-display: swap;
 }

@@ -28,7 +28,7 @@ const Home = ({ children }) => {
   useEffect(() => {
     // Change body background color when the component is mounted
     document.body.style.backgroundColor = 'black';
-    document.body.style.color = 'yellow';
+    document.body.style.color = '#ffd21e';
 
     // Revert body background color when the component is unmounted
     return () => {

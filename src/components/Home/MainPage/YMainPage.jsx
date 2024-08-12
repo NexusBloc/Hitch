@@ -43,16 +43,16 @@ function MainPage() {
             by Hitch.
             <br />
             <br />
-            Collection will be minted in form of short chapters, each chapter
+            Collection will be minted in the form of short chapters, each chapter
             has graphics for your own characters in these ?an!c stories.
             <br />
             <br />
             Each ?an!c NFT character has a unique emotional facial expression.
-            This detailed individuality make stories from diversity. Diversity
+            This detailed individuality makes stories from diversity. <br /><br /> Diversity
             of ?an!c Lives forever on the blockchain.
             <br />
             <br />
-            48&times;48 pixel, 6 chapters.
+            48<span className='multiply'>&times;</span>48 pixel, 6 chapters.
           </p>
         </div>
         <ChapterOne />

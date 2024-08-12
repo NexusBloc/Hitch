@@ -4,13 +4,26 @@ body {
 .Gcontainer {
     background-image: url('./Assets/darkpanic_bg.png');
     background-size: contain;
+     height: 500vh;
+  /* max-height: 3420px; */
+  /* margin-bottom: 1400px; */
   }
 .GcontainerF {
   /* background-image: url('./Assets/darkpanic_bg.png'); */
-    height: 10vh;
+    height: 0vh;
     position: relative;
-    top: 410px;
+    top: -920px;
+    /* overflow: hidden; */
   }
+  @media (min-width: 1441px) {
+    .Gcontainer {
+      background-image: url('./Assets/darkpanic_bg.png');
+      background-size: contain;
+       height: 340vh;
+    /* max-height: 3420px; */
+    /* margin-bottom: 1400px; */
+    }
+}
 .row-container {
     position: relative;
     width: 87%;
@@ -53,7 +66,7 @@ body {
   }
   
   .item img {
-    width: 50%;
+    width: 62%;
     height: auto;
     max-width: 200px; /* Adjust the size as needed */
     display: block;
@@ -309,6 +322,7 @@ font-weight: bold;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+  
   .Xx{
     width: 464px;
     height: 165px;
@@ -397,19 +411,24 @@ font-weight: bold;
     }
     .item {
       flex: 1;
+      width: 40%;
       margin: 0 10px;
       /* Adjust spacing between items */
       text-align: center;
     }
+  
     
     .item h2 {
-      font-size: 12px;
+      font-size: 8px;
     }
     .item .asizebr  {
-      width: 100%;
+      width: 70px;
+    }
+    .row-container {
+      left: 2.1%;
     }
     .item .asizeb  {
-      width: 140%;
+      width: 70px;
       display: flex;
       justify-content: space-around;
   
@@ -431,13 +450,28 @@ font-weight: bold;
   /* margin-left: 7%; */
   background-size: cover;
   width: 40%;
-  height: 130px;
-      
+  height: 130px;     
+}
+.Gcontainer {
+  /* padding-left: -30px; */
+  height: 1770px;
+  margin-top: -110px;
 }
 .GcontainerF {
   /* background-image: url('./Assets/darkpanic_bg.png'); */
     /* height: 10vh; */
     position: relative;
-    top: 480px;
+    top: 280px;
+  }
+  .fcol {
+    width: 60px;
+  }
+
+  .item img {
+    width: 70px;
+    height: auto;
+    max-width: 200px; /* Adjust the size as needed */
+    display: block;
+    margin: 0 auto;
   }
 }

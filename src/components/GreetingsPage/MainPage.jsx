@@ -35,7 +35,8 @@ function MainPage() {
             Please join our Discord channel.
             <br />
             <br />
-            What is ?an!c–
+            What is ?an!c– 
+            <br />
             –?an!c, we always have it in all our l!ves.
             <br />
             <br />
@@ -53,8 +54,8 @@ function MainPage() {
             <br />
             Collect your characters and enter a journey of ?an!c stories.
           </p>
-        </div>
         <ChapterOne />
+        </div>
       </div>
     </>
   );

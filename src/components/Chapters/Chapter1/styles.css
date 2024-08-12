@@ -3,10 +3,10 @@
 
 .conta1 {
     background-image: url('../Assets/chpanic.GIF');
-    background-size: cover;
+    background-size: contain;
     /* background-position: center center; */
     width: 100%;
-    height: 100vh;
+    height: 156vh;
     /* background-color: #ff501e; */
     /* overflow: hidden; */
 
@@ -14,16 +14,16 @@
 }
 .introP {
   position: absolute;
-  top: 201px;
-  width: 70%;
+  top: 60px;
+  width: 90%;
   font-weight: bold;
-  left: 219px;
+  left: 120px;
   color: #FFD21E;
   font-family: "Anic", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: 700; */
   font-style: normal;
-  font-size: 19px;
+  font-size: 22px;
   text-shadow: 1px 1px #EBBE0A;
 }
 .CHcontainer {
@@ -31,9 +31,9 @@
     justify-content: space-between;
     padding: 20px;
     position: relative;
-    top: 400px;
-    width: 60%;
-    left: 20%;
+    top: 562px;
+    width: 20%;
+    left: 14%;
     /* background-color: orange; Adjust this to match the background color in your image */
   }
   
@@ -43,7 +43,7 @@
     text-align: center;
     top: 104px;
     position: relative;
-    left: -35px;
+    left: -17px;
   }
   .boxb {
     padding: 20px;
@@ -55,8 +55,8 @@
   }
   
   .image {
-    width: 65px;
-    height: 65px;
+    width: 75%;
+    height: 63%;
     margin-bottom: 10px;
   }
   
@@ -66,19 +66,73 @@
     font-weight: bold;
     position: relative;
     top: -13px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: bold;
     /* left: 219px; */
     color: #FFD21E;
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
+    font-family: "Anic", sans-serif;
+    /* font-optical-sizing: auto; */
     /* font-weight: 700; */
     font-style: normal;
     font-size: 19px;
-    text-shadow: 1px 1px #EBBE0A;
+    /* text-shadow: 1px 1px #EBBE0A; */
   }
-  
+  .ch1backhome {
+    height: 16%;
+    position: absolute;
+    left: 71%;
+    overflow: hidden;
+    top: 725px;
+    background-size: contain;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-image: url('../Assets/panic\ yellow.png');
+}
+@media (min-width: 1441px) {
+  .CHcontainer {
+    left: 6.3%;
+    top: 670px;
+  }
+  .ch1backhome {
+    top: 835px;
+    left: 49%;
+    width: 55%;
+    height: 15%;
+  }
+  .image {
+    width: 94%;
+    height: 73%;
+    margin-bottom: 10px;
+  }
+  .box {
+    padding: 20px;
+    /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
+    text-align: center;
+    top: 104px;
+    position: relative;
+    left: -9px;
+  }
+}
+
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+  .ch1backhome {
+    height: 70px;
+    position: absolute;
+    left: 78.8%;
+    overflow: hidden;
+    top: 640px;
+    background-size: contain;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-image: url('../Assets/panic\ yellow.png');
+}
+  .text {
+    font-size: 11px;
+  }
+  .image {
+    width: 70px;
+    height: 70px;
+  }
     .conta1{
         background-image: url('../Assets/Chapter1bg.gif');
         background-size: cover;
@@ -86,8 +140,9 @@
         background-position-x: 3px;
         background-repeat: no-repeat;
         /* background-position: center center; */
-        width: 100vw;
-        height: 100vh
+        width: 100%;
+        height: 150vh;
+        overflow-x: hidden;
     }
     .introP{
       left: 35px;
@@ -96,9 +151,9 @@
       font-size: 13px;
     }
     .CHcontainer {
-        top: 280px;
+        top: 350px;
         padding-bottom: 330px;
-        width: 90%;
+        width: 70%;
         left: 2%;
         
       }
@@ -121,5 +176,6 @@
       .text {
         top: -16px;
         left: -17px;
+        /* padding-right: 9px; */
       }
 }

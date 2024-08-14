@@ -15,7 +15,7 @@ body {
     top: -920px;
     /* overflow: hidden; */
   }
-  @media (min-width: 1441px) {
+  @media (min-width: 2220px) {
     .Gcontainer {
       background-image: url('./Assets/darkpanic_bg.png');
       background-size: contain;
